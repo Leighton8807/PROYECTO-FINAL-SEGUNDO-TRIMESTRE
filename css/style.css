@@ -1,0 +1,166 @@
+ *{
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    flex-direction: column;
+    
+}
+
+body > *{
+    width: 100%;
+}
+ 
+
+header > div {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/angel-jimenez.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header > div > h1 {
+    color: white;
+    font-size: 70px;
+}
+
+
+#sec-izq{
+  float: left;
+  width: 40%;
+  margin: 0 20px 0 50px;
+}
+button{
+  border-color: rgb(235, 81, 64);
+  border-radius: 30px;
+  background-color:rgb(235, 81, 64);
+  color: white;
+  font-size: 20px;
+  width: 130px;
+  display: inline-block;
+}
+
+img{
+  height: 400px;
+  width: 300px;
+  margin-left: 42px;
+}
+
+nav > img{
+  margin: left;
+}
+
+h2 {
+  background-image: linear-gradient(45deg, #fa4a54 50%, #da0170 50%);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#sec-der{
+  float: right;
+  width: 40%;
+  margin: 0 20px 0 50px;
+}
+
+.clear{
+  clear: both;
+}
+
+footer > nav{
+  height: 900px;
+  width: 100%;
+  background-image: url("../images/john-raptis.png ");
+  background-size: cover;
+  background-position: 50% 50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+footer > nav > h3{
+  font-size: 25px;
+}
+
+footer{
+  background-color: rgb(253, 46, 92);
+  color: white;
+  height: 80%;
+}
+
+
+footer  p {
+display: flex;
+align-items: flex-end;
+justify-content:space-around;
+padding-top: 5px;
+border-top: white;
+margin-top: 5px;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+}
+
+
+.ContainerText{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 65;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.ContainerText nav {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+#parrafoImagen{
+  display: flex;
+  justify-content: center;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+
+#copy{
+  display: flex;
+  justify-content: start;
+}
+
+#mail{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.copy {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: flex-start;
+  overflow: auto;
+  flex-direction: row;
+  border-color: white;
+  border-top: white;
+}
